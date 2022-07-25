@@ -8,7 +8,7 @@ import com.fasterxml.jackson.databind.JsonMappingException;
 
 public class ViewMain {
 
-	public static void showMenu() throws JsonMappingException, JsonProcessingException, IOException, InterruptedException {
+	public static void showMenu() throws Exception {
 		int option = 0;
 		boolean loopMenu = true;
 		try (Scanner sc = new Scanner(System.in)) {

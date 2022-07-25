@@ -8,7 +8,7 @@ public class ConfigApp {
 	
 	public static String getProperties(String propertie) throws IOException {
 		Properties config = new Properties();
-		FileInputStream arquivo = new FileInputStream("../alura_sticker/src/main/resources/config.properties");
+		FileInputStream arquivo = new FileInputStream("src/main/resources/config.properties");
 		config.load(arquivo);
 		return config.getProperty(propertie);
 	}

@@ -11,7 +11,7 @@ import alura_sticker.ViewMostPopularTVs;
 
 public class App 
 {
-    public static void main( String[] args ) throws IOException, InterruptedException
+    public static void main( String[] args ) throws Exception
     {
     	ViewMain.showMenu();
     }
